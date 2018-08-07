@@ -1,0 +1,112 @@
+body{
+	background-color: black;
+}
+h1{
+	color: white;
+	font-size: 20px;
+}
+h2{
+	color: red;
+	font-size: 20px;
+	padding-left: 98px;
+	margin-top: -37px;
+}
+#header{
+	padding-left: 300px;
+	margin-top: 30px;
+
+}
+.list{
+	padding-left: 550px;
+	font-size: 12px;
+	margin-top: -50px;
+
+
+}
+ul{
+	list-style-type: none;
+	padding: 2;
+	margin: 0;
+	overflow: hidden;
+
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px;
+	color: white;
+}
+li a:hover{
+	color: red;
+
+}
+img{
+	border-radius: 50px;
+	
+}
+#con{
+	margin-left: 300px;
+	color: white;
+	font-size: 20px;
+}
+#img6{
+	margin-left: 600px;
+}
+#las{
+	margin-left: 580px;
+	color: grey;
+	font-size: 10px;
+
+}
+#man{
+	margin-left: 300px;
+
+}
+#man2{
+	color: white;
+}
+#na{
+	color: grey;
+	font-size: 10px;
+	margin-top: -5px;
+}
+#book{
+	margin-left: 300px;
+}
+#book2{
+	color: white;
+}
+.book{
+	color: grey;
+	font-size: 10px;
+	margin-top: -5px;
+}
+#in{
+	margin-left: 600px;
+	margin-top: -150px;
+	width: 415px;
+
+}
+input{
+	width: 415px;
+	border-radius: 15px 30px 15px 40px;
+}
+#text{
+	height: 100px;
+	border-radius: 15px 30px 15px 40px;
+
+}
+#sub{
+	width: 70px;
+	margin-left: 350px;
+	background-color: red;
+	border-radius: 15px 30px 30px 40px;
+
+}
+#sub:hover{
+	cursor: pointer;
+}

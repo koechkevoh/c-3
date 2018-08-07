@@ -1,0 +1,161 @@
+.intro { 
+    background-color: yellow;
+}
+#firstname { 
+    background-color: yellow;
+}
+* { 
+    background-color: yellow;
+}
+p { 
+    background-color: yellow;
+}
+h1, p { 
+    background-color: yellow;
+}
+div p { 
+    background-color: yellow;
+}
+div > p { 
+    background-color: yellow;
+}
+div + p { 
+    background-color: yellow;
+}
+
+p ~ ul {
+    background: #ff0000;
+}
+a[target] { 
+    background-color: yellow;
+}
+a[target=_blank] { 
+    background-color: yellow;
+}
+[title~=flower] { 
+    background-color: yellow;
+}
+[lang|=en] { 
+    background-color: yellow;
+}
+div[class^="test"] {
+    background: #ffff00;
+}
+div[class$="test"] {
+    background: #ffff00;
+}
+div[class*="test"] {
+    background: #ffff00;
+}
+a:active { 
+    background-color: yellow;
+}
+p::after { 
+    content: " - Remember this";
+}
+p::before { 
+    content: "Read this: ";
+}
+input:checked {
+    height: 50px;
+    width: 50px;
+}
+input[type="text"]:disabled {
+    background: #dddddd;
+}
+p:empty {
+    background: #ff0000;
+}
+input[type="text"]:enabled {
+    background: #ffff00;
+}
+p:first-child { 
+    background-color: yellow;
+}
+p::first-letter { 
+    font-size: 200%;
+    color: #8A2BE2;
+}
+p::first-line { 
+    background-color: yellow;
+}
+p:first-of-type {
+    background: red;
+}
+input:focus { 
+    background-color: yellow;
+}
+a:hover { 
+    background-color: yellow;
+}
+input:in-range { 
+    border: 2px solid yellow;
+}
+input:invalid { 
+    border: 2px solid red;
+}
+p:lang(it) { 
+    background: yellow;
+}
+p:last-child {
+    background: #ff0000;
+}
+p:last-of-type {
+    background: #ff0000;
+}
+a:link { 
+    background-color: yellow;
+}
+:not(p) {
+    background: #ff0000;
+}
+p:nth-child(2) {
+    background: red;
+}
+p:nth-last-child(2) {
+    background: red;
+}
+p:nth-last-of-type(2) {
+    background: red;
+}
+p:nth-of-type(2) {
+    background: red;
+}
+p:only-of-type {
+    background: #ff0000;
+}
+p:only-child {
+    background: #ff0000;
+}
+input:optional { 
+    background-color: yellow;
+}
+input:out-of-range { 
+    border: 2px solid red;
+}
+input:-moz-read-only { /* For Firefox */
+    background-color: yellow;
+}
+input:-moz-read-write { /* For Firefox */
+    background-color: yellow;
+}
+input:required { 
+    background-color: yellow;
+}
+:root { 
+    background: #ff0000;
+}
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}
+input:valid { 
+    background-color: yellow;
+}
+a:visited { 
+    color: pink;
+}
